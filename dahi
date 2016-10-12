@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# `dahi` directly maps to the sudo command
+# Now you can do `dahi yum install [whatever]`
+
+sudo ${@:1}
+
