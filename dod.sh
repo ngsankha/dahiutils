@@ -10,8 +10,8 @@ GREEN="\033[0;32m"
 NC="\033[0m"
 
 # List of Dahi brands
-brands=("Mother Dairy" "Amul" "Epigamia" "Nestle" "Britannia")
-rand=$[$RANDOM % 5]
+brands=("Mother Dairy" "Amul" "Epigamia" "Nestle" "Britannia" "Govardhan")
+rand=$[$RANDOM % 6]
 
 # DOD
-echo "Dahi of the day is ${GREEN}${brands[$rand]}${NC}, stay healthy"
+echo "Dahi of the day is ${GREEN}${brands[$rand]}${NC}. Stay healthy!"
